@@ -1,0 +1,74 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar {
+  color: #EBE7EC;
+  justify-content: space-between;
+  background-color: #885BA6;
+}
+header .nav-link {
+  color: #F2A413;
+  font-size: 20px;
+  font-weight: 600;
+}
+header .nav-link:hover {
+  color: #F22294;
+}
+header .logo-grego {
+  width: 150px;
+  margin-left: 20px;
+}
+
+#intro {
+  background-color: gray;
+  color: #EBE7EC;
+}
+#intro .IntroGrego {
+  margin: 20px;
+}
+#intro h1 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+#noticias {
+  background-color: #F22294;
+}
+#noticias .card {
+  background-color: #F2A413;
+}
+#noticias .card-title {
+  color: #EBE7EC;
+  font-weight: 600;
+}
+#noticias .card-text {
+  text-align: justify;
+}
+#noticias .card-img-top {
+  height: 300px;
+}
+#noticias .titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2A413;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+#noticias .btn:hover {
+  background-color: #04D9D9;
+}
+#noticias .btn-primary {
+  background-color: #885BA6;
+  color: #EBE7EC;
+  font-weight: 600;
+  border-color: white;
+}
+
+/*# sourceMappingURL=app.css.map */

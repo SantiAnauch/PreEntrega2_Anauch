@@ -1,0 +1,81 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    .navbar {
+        color: #EBE7EC;
+        justify-content: space-between;
+        background-color: #885BA6;
+    }
+    .nav-link {
+        color: #F2A413;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .nav-link:hover {
+        color: #F22294;
+    }
+    .logo-grego {
+        width: 150px;
+        margin-left: 20px;
+    }
+}
+
+#intro {
+    background-color: gray;
+    color: #EBE7EC;
+    .IntroGrego {
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 45px;
+    }    
+}
+
+#noticias {
+    background-color: #F22294;
+    .card {
+        background-color: #F2A413;
+    }
+    .card-title {
+        color: #EBE7EC;
+        font-weight: 600;
+    }
+    .card-text {
+        text-align: justify;
+    }
+    .card-img-top {
+        height: 300px;
+    }
+    .titulos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F2A413;
+        font-size: 50px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .btn:hover{
+        background-color: #04D9D9;
+    }
+    .btn-primary {
+        background-color: #885BA6;
+        color: #EBE7EC;
+        font-weight: 600;
+        border-color: white;
+    }
+}
+
+
+    
+
+
+
+
