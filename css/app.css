@@ -21,6 +21,13 @@ header .logo-grego {
   width: 150px;
   margin-left: 20px;
 }
+header .bi {
+  margin-right: 50px;
+  color: #F2A413;
+}
+header .bi:hover {
+  color: #F22294;
+}
 
 #intro {
   background-color: gray;
@@ -124,6 +131,13 @@ footer .bi {
 footer .logo-grego {
   width: 150px;
   margin-left: 20px;
+}
+footer .bi {
+  margin-right: 50px;
+  color: #F2A413;
+}
+footer .bi:hover {
+  color: #F22294;
 }
 
 @media (max-width: 576px) {
