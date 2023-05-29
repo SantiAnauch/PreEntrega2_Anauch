@@ -34,8 +34,14 @@ header {
         color: #EBE7EC;
         font-weight: 600;
         border-color: white;
+        transition: all 2s; 
     }
     .btn:hover{
+        background-color: #04D9D9;
+    }
+    .btn:focus {
+        width: 200px;
+        font-size: 10PX;
         background-color: #04D9D9;
     }
 }
@@ -43,11 +49,12 @@ header {
 #intro {
     background-color: gray;
     color: #EBE7EC;
+    padding: 20px;
     .IntroGrego {
         margin: 20px;
     }
     p {
-        font-size: 13px;
+        font-size: 15px;
         text-align: justify;
         text-indent: 20px;
     }
@@ -61,6 +68,8 @@ header {
 
 #noticias {
     background-color: #F22294;
+    padding-bottom: 20px;
+    padding: 20px;
     .card {
         background-color: #F2A413;
     }
@@ -99,7 +108,9 @@ header {
     justify-content: space-between;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    background-color: #EBE7EC;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 20px;
     grid-template-areas: 
     "titulos-1 titulos-1"
     "videoForm form"
@@ -117,7 +128,8 @@ header {
         padding: 10px;
     }
     .form {
-        padding: 80px;
+        padding: 40px;
+        color: white;
     }
     .btn:hover{
         background-color: #04D9D9;
@@ -155,6 +167,24 @@ footer {
     
 }
 
+#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top; 
+    height: 800px;  
+    padding-top: 30px;
+    background-color: whitesmoke;
+    .twitter {
+        padding-left: 100px;
+    }
+    
+    .instagram {
+        padding-right: 100px;
+    }
+}
+
+
 @media (max-width: 576px) {
     *{
      margin: 0;
@@ -167,16 +197,26 @@ footer {
          justify-content: center;
          align-items: center;
      }
- 
-     #redes {
-         display: flex;
-         flex-direction: column;
-         align-content: center;
-     }
+    #redes {
+        display: flex;
+        flex-direction: column;
+    }
+    .twitter {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        overflow-x: auto;
+        margin-bottom: 20px;
+        margin-right: 60px;
+    }
+    .instagram {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: auto;
+    }
  }
-
-    
-
 
 
 

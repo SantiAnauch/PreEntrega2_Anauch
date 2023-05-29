@@ -33,20 +33,27 @@ header .btn {
   color: #EBE7EC;
   font-weight: 600;
   border-color: white;
+  transition: all 2s;
 }
 header .btn:hover {
+  background-color: #04D9D9;
+}
+header .btn:focus {
+  width: 200px;
+  font-size: 10PX;
   background-color: #04D9D9;
 }
 
 #intro {
   background-color: gray;
   color: #EBE7EC;
+  padding: 20px;
 }
 #intro .IntroGrego {
   margin: 20px;
 }
 #intro p {
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   text-indent: 20px;
 }
@@ -59,6 +66,8 @@ header .btn:hover {
 
 #noticias {
   background-color: #F22294;
+  padding-bottom: 20px;
+  padding: 20px;
 }
 #noticias .card {
   background-color: #F2A413;
@@ -97,7 +106,9 @@ header .btn:hover {
   justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  background-color: #EBE7EC;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+  padding: 20px;
   grid-template-areas: "titulos-1 titulos-1" "videoForm form";
 }
 #formulario .titulos {
@@ -113,7 +124,8 @@ header .btn:hover {
   padding: 10px;
 }
 #formulario .form {
-  padding: 80px;
+  padding: 40px;
+  color: white;
 }
 #formulario .btn:hover {
   background-color: #04D9D9;
@@ -149,6 +161,22 @@ footer .bi:hover {
   color: #F22294;
 }
 
+#redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  height: 800px;
+  padding-top: 30px;
+  background-color: whitesmoke;
+}
+#redes .twitter {
+  padding-left: 100px;
+}
+#redes .instagram {
+  padding-right: 100px;
+}
+
 @media (max-width: 576px) {
   * {
     margin: 0;
@@ -163,7 +191,21 @@ footer .bi:hover {
   #redes {
     display: flex;
     flex-direction: column;
+  }
+  .twitter {
+    display: flex;
+    flex-direction: column;
     align-content: center;
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+  .instagram {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
   }
 }
 
